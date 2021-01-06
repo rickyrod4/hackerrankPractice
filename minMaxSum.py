@@ -6,7 +6,11 @@
 def minMaxSum(arr):
     minSum = 0
     maxSum = 0
+    sum = 0
+    for item in arr:
+        sum += item
 
+    print(sum)
     
 
 
